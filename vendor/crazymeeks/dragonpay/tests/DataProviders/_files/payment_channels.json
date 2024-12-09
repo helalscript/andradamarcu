@@ -1,0 +1,56 @@
+{
+    "GetAvailableProcessorsResult":{
+       "ProcessorInfo":[
+          {
+             "procId":"BDO",
+             "shortName":"BDO",
+             "longName":"BDO Internet Banking",
+             "logo":"~\/images\/bdologo.jpg",
+             "currencies":"PHP",
+             "url":"",
+             "realTime":true,
+             "pwd":"",
+             "defaultBillerId":"",
+             "hasTxnPwd":false,
+             "hasManualEnrollment":true,
+             "type":1,
+             "status":"A",
+             "remarks":"Use your BDO Retail Internet Banking (RIB) account to make a payment. Read our <a href='http:\/\/www.dragonpay.ph\/bdorib-how-to' target='_blank'>BDO RIB guide<\/a> for more details.",
+             "dayOfWeek":"XXXXXXX",
+             "startTime":"06:00",
+             "endTime":"21:30",
+             "minAmount":1,
+             "maxAmount":1000000,
+             "mustRedirect":false,
+             "surcharge":0,
+             "hasAltRefNo":false,
+             "cost":0
+          },
+          {
+             "procId":"BDOA",
+             "shortName":"BDO ATM",
+             "longName":"Banco de Oro ATM",
+             "logo":"~\/images\/bdologo.jpg",
+             "currencies":"PHP",
+             "url":"",
+             "realTime":false,
+             "pwd":"",
+             "defaultBillerId":"",
+             "hasTxnPwd":false,
+             "hasManualEnrollment":false,
+             "type":2,
+             "status":"A",
+             "remarks":"Pay at any BDO ATM nationwide. Payments are processed next day. <a href='http:\/\/www.dragonpay.ph\/bdo-atm-how-to\/' target='_blank'>Click here for details<\/a>. Payments are processed next day.",
+             "dayOfWeek":"XXXXXXX",
+             "startTime":"00:00",
+             "endTime":"00:00",
+             "minAmount":200,
+             "maxAmount":1000000,
+             "mustRedirect":false,
+             "surcharge":0,
+             "hasAltRefNo":true,
+             "cost":0
+          }
+       ]
+    }
+ }
